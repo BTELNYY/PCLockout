@@ -95,6 +95,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.PasswordEnterBox);
             this.Controls.Add(this.acceptButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "PasswordForm";
             this.Text = "Enter Password";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MyForm_FormClosed);
